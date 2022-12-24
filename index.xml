@@ -6,12 +6,12 @@
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Dec 2022 23:49:50 -0600</lastBuildDate>
             <atom:link href="http://fujiaoji.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>First Post</title>
+    <title>How to write posts</title>
     <link>http://fujiaoji.github.io/posts/first-post/</link>
     <pubDate>Fri, 23 Dec 2022 23:49:50 -0600</pubDate>
     <author>Author</author>
     <guid>http://fujiaoji.github.io/posts/first-post/</guid>
-    <description><![CDATA[This is my first post.]]></description>
+    <description><![CDATA[ hugo new posts/first-post.md on FujiaoBlog write in content/posts/first-post.md, change draft to false In FujiaoBlog, hugo -t LoveIt cd public/, git add *, git commit -m &quot;XXX&quot;, git push ]]></description>
 </item>
 </channel>
 </rss>
