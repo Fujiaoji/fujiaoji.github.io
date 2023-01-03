@@ -11,7 +11,7 @@
     <pubDate>Mon, 26 Dec 2022 12:47:05 -0600</pubDate>
     <author>Author</author>
     <guid>http://fujiaoji.github.io/posts/inferring-phishing-intention-via-webpage-appearance-and-dynamics-a-deep-vision-based-approach/</guid>
-    <description><![CDATA[I. Introduction 1. Situation of anti-phishing method Manually verified anti-phishing blacklist: use dynamic blacklists to track reported phishing URLs. eg. Google Classification-based methods: trained from collecting phishing dataset, perform binary classification Reference-based methods: detecting phishing attacks by referencing a set of representations of well-known brands. 2. Chanllenges The blacklists and collected phishing webpages used for training become obsolete very quickly, resulting in a never-ending cat-and-mouse game between phishing attacks and defenses that are based on blacklists/classification.]]></description>
+    <description><![CDATA[I. Introduction 1. Situation of anti-phishing method Manually verified anti-phishing blacklist: use dynamic blacklists to track reported phishing URLs. eg. Google Classification-based methods: trained from collecting phishing dataset, perform binary classification Reference-based methods: detecting phishing attacks by referencing a set of representations of well-known brands. 2. Challenges The blacklists and collected phishing webpages used for training become obsolete very quickly, resulting in a never-ending cat-and-mouse game between phishing attacks and defenses that are based on blacklists/classification.]]></description>
 </item>
 <item>
     <title>How to write posts</title>
