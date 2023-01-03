@@ -2,10 +2,16 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://fujiaoji.github.io/</loc><lastmod>2022-12-26T12:47:05-06:00</lastmod></url><url>
-            <loc>http://fujiaoji.github.io/posts/</loc><lastmod>2022-12-26T12:47:05-06:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/</loc><lastmod>2023-01-03T16:28:09-06:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/</loc><lastmod>2023-01-03T16:28:09-06:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/tags/</loc><lastmod>2023-01-03T16:28:09-06:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/tags/tips/</loc><lastmod>2023-01-03T16:28:09-06:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/useful-tips-when-writing-codes-on-vscode/</loc><lastmod>2023-01-03T16:28:09-06:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/tags/readpaper/</loc><lastmod>2022-12-31T22:34:43-06:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/visualphishnet-zero-day-phishingwebsite-detection-by-visual-similarity/</loc><lastmod>2022-12-31T22:34:43-06:00</lastmod></url><url>
             <loc>http://fujiaoji.github.io/posts/inferring-phishing-intention-via-webpage-appearance-and-dynamics-a-deep-vision-based-approach/</loc><lastmod>2022-12-26T12:47:05-06:00</lastmod></url><url>
-            <loc>http://fujiaoji.github.io/posts/first-post/</loc><lastmod>2022-12-23T23:49:50-06:00</lastmod></url><url>
-            <loc>http://fujiaoji.github.io/tags/</loc><lastmod>2022-12-23T23:49:50-06:00</lastmod></url><url>
-            <loc>http://fujiaoji.github.io/tags/tips/</loc><lastmod>2022-12-23T23:49:50-06:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/tags/needread/</loc><lastmod>2022-12-26T12:23:49-06:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/usefulinformation/</loc><lastmod>2022-12-26T12:23:49-06:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/image-similarity-using-deep-cnn-and-curriculum-learning/</loc><lastmod>2022-12-26T12:18:43-06:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/first-post/</loc><lastmod>2022-12-24T23:49:50-06:00</lastmod></url><url>
             <loc>http://fujiaoji.github.io/categories/</loc></url></urlset>

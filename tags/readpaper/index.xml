@@ -1,17 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - Fujiao Ji</title>
-        <link>http://fujiaoji.github.io/posts/</link>
-        <description>All Posts | Fujiao Ji</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 03 Jan 2023 16:28:09 -0600</lastBuildDate><atom:link href="http://fujiaoji.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Useful Tips When Writing Codes on Vscode</title>
-    <link>http://fujiaoji.github.io/posts/useful-tips-when-writing-codes-on-vscode/</link>
-    <pubDate>Tue, 03 Jan 2023 16:28:09 -0600</pubDate>
-    <author>Author</author>
-    <guid>http://fujiaoji.github.io/posts/useful-tips-when-writing-codes-on-vscode/</guid>
-    <description><![CDATA[ Zip a folder: zip -r destination_folder_name.zip source_folder_name ]]></description>
-</item>
-<item>
+        <title>ReadPaper - Tag - Fujiao Ji</title>
+        <link>http://fujiaoji.github.io/tags/readpaper/</link>
+        <description>ReadPaper - Tag - Fujiao Ji</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 31 Dec 2022 22:34:43 -0600</lastBuildDate><atom:link href="http://fujiaoji.github.io/tags/readpaper/" rel="self" type="application/rss+xml" /><item>
     <title>VisualPhishNet Zero Day PhishingWebsite Detection by Visual Similarity</title>
     <link>http://fujiaoji.github.io/posts/visualphishnet-zero-day-phishingwebsite-detection-by-visual-similarity/</link>
     <pubDate>Sat, 31 Dec 2022 22:34:43 -0600</pubDate>
@@ -29,28 +21,12 @@
     <description><![CDATA[I. Introduction 1. Situation of anti-phishing method Manually verified anti-phishing blacklist: use dynamic blacklists to track reported phishing URLs. eg. Google Classification-based methods: trained from collecting phishing dataset, perform binary classification Reference-based methods: detecting phishing attacks by referencing a set of representations of well-known brands. 2. Challenges The blacklists and collected phishing webpages used for training become obsolete very quickly, resulting in a never-ending cat-and-mouse game between phishing attacks and defenses that are based on blacklists/classification.]]></description>
 </item>
 <item>
-    <title>UsefulInformation</title>
-    <link>http://fujiaoji.github.io/posts/usefulinformation/</link>
-    <pubDate>Mon, 26 Dec 2022 12:23:49 -0600</pubDate>
-    <author>Author</author>
-    <guid>http://fujiaoji.github.io/posts/usefulinformation/</guid>
-    <description><![CDATA[From paper &ldquo;Image similarity using Deep CNN and Curriculum Learning&rdquo; Typical image descriptors: SIFT, LBP, CNN embedding’s etc; From paper Inferring Phishing Intention via Webpage Appearance and Dynamics: A Deep Vision Based Approach&quot; VisualPhishNet[1] use screenshots [1] [2] and logos [3] [4] [5] as the reference representations of target websites Logo2K+ dataset [6] From paper VisualPhishNet Zero Day PhishingWebsite Detection by Visual Similarity SIFT, SURF, HOG, CCH, ORB, etc. Logo extraction paper: [7], [8] Reference [1] SaharAbdelnabi, Katharina Krombholz, and Mario Fritz VisualPhishNet: Zero-Day Phishing Website Detection by Visual Similarity.]]></description>
-</item>
-<item>
     <title>Image Similarity Using Deep CNN and Curriculum Learning</title>
     <link>http://fujiaoji.github.io/posts/image-similarity-using-deep-cnn-and-curriculum-learning/</link>
     <pubDate>Mon, 26 Dec 2022 12:18:43 -0600</pubDate>
     <author>Author</author>
     <guid>http://fujiaoji.github.io/posts/image-similarity-using-deep-cnn-and-curriculum-learning/</guid>
     <description><![CDATA[Cannot used&hellip; I. Main Contributions Multi-scale CNN used in a Siamese network. This CNN learns a joint image embedding of top as well as lower layers. Employed a novel online pair mining strategy inspired from Curriculum learning which ensures the model finds better local minima. II. Data Used Supervised ML model, need positive and negative pairs CIFAR10, 32*32 III. SIAMESE NETWORK Share parameters ]]></description>
-</item>
-<item>
-    <title>How to write posts</title>
-    <link>http://fujiaoji.github.io/posts/first-post/</link>
-    <pubDate>Sat, 24 Dec 2022 23:49:50 -0600</pubDate>
-    <author>Author</author>
-    <guid>http://fujiaoji.github.io/posts/first-post/</guid>
-    <description><![CDATA[ hugo new posts/first-post.md on FujiaoBlog write in content/posts/first-post.md, change draft to false In FujiaoBlog, hugo -t LoveIt cd public/, git add *, git commit -m &quot;XXX&quot;, git push ]]></description>
 </item>
 </channel>
 </rss>

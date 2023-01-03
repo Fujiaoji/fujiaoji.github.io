@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>NeedRead - Tag - Fujiao Ji</title>
+        <link>http://fujiaoji.github.io/tags/needread/</link>
+        <description>NeedRead - Tag - Fujiao Ji</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 Dec 2022 12:23:49 -0600</lastBuildDate><atom:link href="http://fujiaoji.github.io/tags/needread/" rel="self" type="application/rss+xml" /><item>
+    <title>UsefulInformation</title>
+    <link>http://fujiaoji.github.io/posts/usefulinformation/</link>
+    <pubDate>Mon, 26 Dec 2022 12:23:49 -0600</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/usefulinformation/</guid>
+    <description><![CDATA[From paper &ldquo;Image similarity using Deep CNN and Curriculum Learning&rdquo; Typical image descriptors: SIFT, LBP, CNN embedding’s etc; From paper Inferring Phishing Intention via Webpage Appearance and Dynamics: A Deep Vision Based Approach&quot; VisualPhishNet[1] use screenshots [1] [2] and logos [3] [4] [5] as the reference representations of target websites Logo2K+ dataset [6] From paper VisualPhishNet Zero Day PhishingWebsite Detection by Visual Similarity SIFT, SURF, HOG, CCH, ORB, etc. Logo extraction paper: [7], [8] Reference [1] SaharAbdelnabi, Katharina Krombholz, and Mario Fritz VisualPhishNet: Zero-Day Phishing Website Detection by Visual Similarity.]]></description>
+</item>
+</channel>
+</rss>

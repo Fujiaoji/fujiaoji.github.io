@@ -3,10 +3,18 @@
         <title>Tips - Tag - Fujiao Ji</title>
         <link>http://fujiaoji.github.io/tags/tips/</link>
         <description>Tips - Tag - Fujiao Ji</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Dec 2022 23:49:50 -0600</lastBuildDate><atom:link href="http://fujiaoji.github.io/tags/tips/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 03 Jan 2023 16:28:09 -0600</lastBuildDate><atom:link href="http://fujiaoji.github.io/tags/tips/" rel="self" type="application/rss+xml" /><item>
+    <title>Useful Tips When Writing Codes on Vscode</title>
+    <link>http://fujiaoji.github.io/posts/useful-tips-when-writing-codes-on-vscode/</link>
+    <pubDate>Tue, 03 Jan 2023 16:28:09 -0600</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/useful-tips-when-writing-codes-on-vscode/</guid>
+    <description><![CDATA[ Zip a folder: zip -r destination_folder_name.zip source_folder_name ]]></description>
+</item>
+<item>
     <title>How to write posts</title>
     <link>http://fujiaoji.github.io/posts/first-post/</link>
-    <pubDate>Fri, 23 Dec 2022 23:49:50 -0600</pubDate>
+    <pubDate>Sat, 24 Dec 2022 23:49:50 -0600</pubDate>
     <author>Author</author>
     <guid>http://fujiaoji.github.io/posts/first-post/</guid>
     <description><![CDATA[ hugo new posts/first-post.md on FujiaoBlog write in content/posts/first-post.md, change draft to false In FujiaoBlog, hugo -t LoveIt cd public/, git add *, git commit -m &quot;XXX&quot;, git push ]]></description>
