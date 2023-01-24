@@ -62,8 +62,18 @@
         alt="/images/avatar.png"
         title="/images/avatar.png" /></a></div><div class="home-subtitle"><div id="id-1" class="typeit"></div></div><div class="links"></div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/phishing-detection-via-identification-of-website-identity/">Phishing Detection via Identification of Website Identity</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="2023-01-24">2023-01-24</time></span></div><div class="content">1. Paper summary The authors proposed an anti-phishing method to protect Internet users from the phishing attacks. Specifically, they first obtained screenshots, then segmented them to get the logos. After that, they utilized Google image database to search and return keywords. Next, they used the keywords to search again, then compare domain name between the query website and the second search domain name.
+and retrieval mechanism to identify most similar logos.</div><div class="post-footer">
+        <a href="/posts/phishing-detection-via-identification-of-website-identity/">Read More</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/how-to-subplot-pictures-to-one-figure/">How to Subplot Pictures to One Figure</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="2023-01-04">2023-01-04</time></span></div><div class="content">Subplot pictures in one figure:
+from PIL import Image import matplotlib.pyplot as plt row_length = 5 column_length = 5 for i in range(row_length): for j in range(column_length): plt.subplot(row_length, column_length, i*5+j+1) im = Image.open(&#34;a.png&#34;) if j == 0: plt.ylabel(&#34;XXX&#34;) plt.yticks([]) plt.xticks([]) plt.imshow(im, cmap=&#39;gray&#39;) plt.tight_layout() plt.savefig(&#34;test.png&#34;) </div><div class="post-footer">
+        <a href="/posts/how-to-subplot-pictures-to-one-figure/">Read More</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/posts/useful-tips-when-writing-codes-on-vscode/">Useful Tips When Writing Codes on Vscode</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="2023-01-03">2023-01-03</time></span></div><div class="content"> Zip a folder: zip -r destination_folder_name.zip source_folder_name Unzip a folder: unzip source_folder_name.zip -d ./destination_folder_name/. ./ means current directory, ../ means parent directory, ~ means home directory, / means root directory. Do not use / directory !!! </div><div class="post-footer">
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="2023-01-03">2023-01-03</time></span></div><div class="content"> Zip a folder: zip -r destination_folder_name.zip source_folder_name Unzip a folder: unzip source_folder_name.zip -d ./destination_folder_name/. Specifically, ./ means current directory, ../ means parent directory, ~ means home directory, / means root directory. Do not use / directory !!! In linux, terminal, etc., create a new file, touch XXX.cpp </div><div class="post-footer">
         <a href="/posts/useful-tips-when-writing-codes-on-vscode/">Read More</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/tips/">Tips</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
@@ -82,17 +92,15 @@
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-12-26">2022-12-26</time></span></div><div class="content">From paper &ldquo;Image similarity using Deep CNN and Curriculum Learning&rdquo; Typical image descriptors: SIFT, LBP, CNN embedding’s etc; From paper Inferring Phishing Intention via Webpage Appearance and Dynamics: A Deep Vision Based Approach&quot; VisualPhishNet[1] use screenshots [1] [2] and logos [3] [4] [5] as the reference representations of target websites Logo2K+ dataset [6] From paper VisualPhishNet Zero Day PhishingWebsite Detection by Visual Similarity SIFT, SURF, HOG, CCH, ORB, etc. Logo extraction paper: [7], [8] Reference [1] SaharAbdelnabi, Katharina Krombholz, and Mario Fritz VisualPhishNet: Zero-Day Phishing Website Detection by Visual Similarity.</div><div class="post-footer">
         <a href="/posts/usefulinformation/">Read More</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/needread/">NeedRead</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/image-similarity-using-deep-cnn-and-curriculum-learning/">Image Similarity Using Deep CNN and Curriculum Learning</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-12-26">2022-12-26</time></span></div><div class="content">Cannot used&hellip; I. Main Contributions Multi-scale CNN used in a Siamese network. This CNN learns a joint image embedding of top as well as lower layers. Employed a novel online pair mining strategy inspired from Curriculum learning which ensures the model finds better local minima. II. Data Used Supervised ML model, need positive and negative pairs CIFAR10, 32*32 III. SIAMESE NETWORK Share parameters </div><div class="post-footer">
-        <a href="/posts/image-similarity-using-deep-cnn-and-curriculum-learning/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/readpaper/">ReadPaper</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/first-post/">How to write posts</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-12-24">2022-12-24</time></span></div><div class="content"> hugo new posts/first-post.md on FujiaoBlog write in content/posts/first-post.md, change draft to false In FujiaoBlog, hugo -t LoveIt cd public/, git add *, git commit -m &quot;XXX&quot;, git push </div><div class="post-footer">
-        <a href="/posts/first-post/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/tips/">Tips</a></div></div>
-</article></div></div>
+</article><ul class="pagination"><li class="page-item active">
+                    <span class="page-link">
+                        <a href="/">1</a>
+                    </span>
+                </li><li class="page-item ">
+                    <span class="page-link">
+                        <a href="/page/2/">2</a>
+                    </span>
+                </li></ul></div></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.108.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>

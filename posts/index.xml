@@ -3,13 +3,31 @@
         <title>All Posts - Fujiao Ji</title>
         <link>http://fujiaoji.github.io/posts/</link>
         <description>All Posts | Fujiao Ji</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 03 Jan 2023 16:28:09 -0600</lastBuildDate><atom:link href="http://fujiaoji.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 24 Jan 2023 11:12:52 -0500</lastBuildDate><atom:link href="http://fujiaoji.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Phishing Detection via Identification of Website Identity</title>
+    <link>http://fujiaoji.github.io/posts/phishing-detection-via-identification-of-website-identity/</link>
+    <pubDate>Tue, 24 Jan 2023 11:12:52 -0500</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/phishing-detection-via-identification-of-website-identity/</guid>
+    <description><![CDATA[1. Paper summary The authors proposed an anti-phishing method to protect Internet users from the phishing attacks. Specifically, they first obtained screenshots, then segmented them to get the logos. After that, they utilized Google image database to search and return keywords. Next, they used the keywords to search again, then compare domain name between the query website and the second search domain name.
+and retrieval mechanism to identify most similar logos.]]></description>
+</item>
+<item>
+    <title>How to Subplot Pictures to One Figure</title>
+    <link>http://fujiaoji.github.io/posts/how-to-subplot-pictures-to-one-figure/</link>
+    <pubDate>Wed, 04 Jan 2023 16:22:25 -0600</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/how-to-subplot-pictures-to-one-figure/</guid>
+    <description><![CDATA[Subplot pictures in one figure:
+from PIL import Image import matplotlib.pyplot as plt row_length = 5 column_length = 5 for i in range(row_length): for j in range(column_length): plt.subplot(row_length, column_length, i*5+j+1) im = Image.open(&#34;a.png&#34;) if j == 0: plt.ylabel(&#34;XXX&#34;) plt.yticks([]) plt.xticks([]) plt.imshow(im, cmap=&#39;gray&#39;) plt.tight_layout() plt.savefig(&#34;test.png&#34;) ]]></description>
+</item>
+<item>
     <title>Useful Tips When Writing Codes on Vscode</title>
     <link>http://fujiaoji.github.io/posts/useful-tips-when-writing-codes-on-vscode/</link>
     <pubDate>Tue, 03 Jan 2023 16:28:09 -0600</pubDate>
     <author>Author</author>
     <guid>http://fujiaoji.github.io/posts/useful-tips-when-writing-codes-on-vscode/</guid>
-    <description><![CDATA[ Zip a folder: zip -r destination_folder_name.zip source_folder_name Unzip a folder: unzip source_folder_name.zip -d ./destination_folder_name/. ./ means current directory, ../ means parent directory, ~ means home directory, / means root directory. Do not use / directory !!! ]]></description>
+    <description><![CDATA[ Zip a folder: zip -r destination_folder_name.zip source_folder_name Unzip a folder: unzip source_folder_name.zip -d ./destination_folder_name/. Specifically, ./ means current directory, ../ means parent directory, ~ means home directory, / means root directory. Do not use / directory !!! In linux, terminal, etc., create a new file, touch XXX.cpp ]]></description>
 </item>
 <item>
     <title>VisualPhishNet Zero Day PhishingWebsite Detection by Visual Similarity</title>
