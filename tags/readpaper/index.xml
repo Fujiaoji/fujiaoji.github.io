@@ -3,14 +3,23 @@
         <title>ReadPaper - Tag - Fujiao Ji</title>
         <link>http://fujiaoji.github.io/tags/readpaper/</link>
         <description>ReadPaper - Tag - Fujiao Ji</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 24 Jan 2023 11:12:52 -0500</lastBuildDate><atom:link href="http://fujiaoji.github.io/tags/readpaper/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 06 Feb 2023 09:47:00 -0500</lastBuildDate><atom:link href="http://fujiaoji.github.io/tags/readpaper/" rel="self" type="application/rss+xml" /><item>
+    <title>Pretrained model for logoes or icons</title>
+    <link>http://fujiaoji.github.io/posts/2023-2-6/</link>
+    <pubDate>Mon, 06 Feb 2023 09:47:00 -0500</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/2023-2-6/</guid>
+    <description><![CDATA[Logo Detection Using Deep Learning with Pretrained CNN Models [1] What:
+Use pre-trained object detection models to enhance the performance of logo detection tasks when only a portion of labeled training images taken in truthful context is obtainable, evading wide manual classification costs In this paper, RCNN, FRCNN and RetinaNet were used for logo detection (In this paper, there is a comarason of different image methods, deserving read) How Use pretrained model to get features: 1) RetinaNet, 2) Faster R-CNN Other Information]]></description>
+</item>
+<item>
     <title>Phishing Detection via Identification of Website Identity</title>
     <link>http://fujiaoji.github.io/posts/phishing-detection-via-identification-of-website-identity/</link>
     <pubDate>Tue, 24 Jan 2023 11:12:52 -0500</pubDate>
     <author>Author</author>
     <guid>http://fujiaoji.github.io/posts/phishing-detection-via-identification-of-website-identity/</guid>
     <description><![CDATA[1. Paper summary The authors proposed an anti-phishing method to protect Internet users from the phishing attacks. Specifically, they first obtained screenshots, then segmented them to get the logos. After that, they utilized Google image database to search and return keywords. Next, they used the keywords to search again, then compare domain name between the query website and the second search domain name.
-and retrieval mechanism to identify most similar logos.]]></description>
+2. Background Earth Movers Distance (EMD): Fu et al.]]></description>
 </item>
 <item>
     <title>VisualPhishNet Zero Day PhishingWebsite Detection by Visual Similarity</title>
@@ -18,7 +27,7 @@ and retrieval mechanism to identify most similar logos.]]></description>
     <pubDate>Sat, 31 Dec 2022 22:34:43 -0600</pubDate>
     <author>Author</author>
     <guid>http://fujiaoji.github.io/posts/visualphishnet-zero-day-phishingwebsite-detection-by-visual-similarity/</guid>
-    <description><![CDATA[I. Introduction 1. Situation of anti-phishing method Phishing webpages try to deceive paper by high visual similarity between phishing webpage and legistimate ones. Some methods maintain a list of commonly attack pages (domain name and their screenshots). However, these methods have limitations: 1) list is small; 2) attackers can bypass detection by crafting partially similar pshihing pages with different background pictures.
+    <description><![CDATA[I. Introduction 1. Situation of anti-phishing method Phishing webpages try to deceive paper by high visual similarity between phishing webpage and legistimate ones. Some methods maintain a list of commonly attack pages (domain name and their screenshots). However, these methods have limitations: 1) list is small; 2) attackers can bypass detection by crafting partially similar phishing pages with different background pictures.
 2. Contributions of this paper Present dataset of VisualPhish, 155 trust websites with 9363 pages.]]></description>
 </item>
 <item>
