@@ -4,24 +4,12 @@
         <link>http://fujiaoji.github.io/tags/readpaper/</link>
         <description>ReadPaper - Tag - Fujiao Ji</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 23 Feb 2023 13:07:46 -0500</lastBuildDate><atom:link href="http://fujiaoji.github.io/tags/readpaper/" rel="self" type="application/rss+xml" /><item>
-    <title>PhishFarm: A Scalable Framework for Measuring the Effectiveness of Evasion Techniques Against Browser Phishing Blacklists</title>
+    <title></title>
     <link>http://fujiaoji.github.io/posts/2023-2-23/</link>
     <pubDate>Thu, 23 Feb 2023 13:07:46 -0500</pubDate>
     <author>Author</author>
     <guid>http://fujiaoji.github.io/posts/2023-2-23/</guid>
-    <description><![CDATA[Research Question We know that blacklists are effective when they function as intended, but is this always the case? Do blacklists offer adequate protection against phishers’ evasion efforts such as cloaking, or are phishers launching attacks with impunity? We focus on answering these questions in the rest of this paper.
-Abstract PhishFarm: testing resilence of anti-phishing entities and browser blacklists to attackers&rsquo; evasion.
-Introduction Weakness of blacklist: reactive. So attackers use cloaking technique to avoid or delay detection.]]></description>
-</item>
-<item>
-    <title>PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist</title>
-    <link>http://fujiaoji.github.io/posts/2023-2-22/</link>
-    <pubDate>Wed, 22 Feb 2023 09:31:48 -0500</pubDate>
-    <author>Author</author>
-    <guid>http://fujiaoji.github.io/posts/2023-2-22/</guid>
-    <description><![CDATA[Question: How they test which web can pass or not pass the blacklist??? How they design the experiment 2. Background Spearphishing: concentrate on a specific group or individuals Large-scale phishing: targets a wide range of victims and allows fishers to profit through volume
-2.1 phishing attacks Typical phishing attack: appearance similar to the legistimate website.
-2.2 anti-phishing blacklists Evasion Tech: Weakness of blacklist: they are reactive. Phishers capitalize on the time gap between a phishing website’s deployment and its subsequent blacklisting, and may increase their return-on-investment (ROI) by prolonging this gap]]></description>
+    <description><![CDATA[Reading: An Analysis of Phishing Blacklists: Google Safe Browsing, OpenPhish, and PhishTank Reading: PhishFarm: A Scalable Framework for Measuring the Effectiveness of Evasion Techniques Against Browser Phishing Blacklists Research Question We know that blacklists are effective when they function as intended, but is this always the case? Do blacklists offer adequate protection against phishers’ evasion efforts such as cloaking, or are phishers launching attacks with impunity? We focus on answering these questions in the rest of this paper.]]></description>
 </item>
 <item>
     <title>Reading Adversarial Papers for Project2</title>
