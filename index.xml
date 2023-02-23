@@ -3,9 +3,29 @@
         <title>Fujiao Ji</title>
         <link>http://fujiaoji.github.io/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Feb 2023 13:31:49 -0500</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 23 Feb 2023 13:07:46 -0500</lastBuildDate>
             <atom:link href="http://fujiaoji.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>PhishFarm: A Scalable Framework for Measuring the Effectiveness of Evasion Techniques Against Browser Phishing Blacklists</title>
+    <link>http://fujiaoji.github.io/posts/2023-2-23/</link>
+    <pubDate>Thu, 23 Feb 2023 13:07:46 -0500</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/2023-2-23/</guid>
+    <description><![CDATA[Research Question We know that blacklists are effective when they function as intended, but is this always the case? Do blacklists offer adequate protection against phishers’ evasion efforts such as cloaking, or are phishers launching attacks with impunity? We focus on answering these questions in the rest of this paper.
+Abstract PhishFarm: testing resilence of anti-phishing entities and browser blacklists to attackers&rsquo; evasion.
+Introduction Weakness of blacklist: reactive. So attackers use cloaking technique to avoid or delay detection.]]></description>
+</item>
+<item>
+    <title>PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist</title>
+    <link>http://fujiaoji.github.io/posts/2023-2-22/</link>
+    <pubDate>Wed, 22 Feb 2023 09:31:48 -0500</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/2023-2-22/</guid>
+    <description><![CDATA[Question: How they test which web can pass or not pass the blacklist??? How they design the experiment 2. Background Spearphishing: concentrate on a specific group or individuals Large-scale phishing: targets a wide range of victims and allows fishers to profit through volume
+2.1 phishing attacks Typical phishing attack: appearance similar to the legistimate website.
+2.2 anti-phishing blacklists Evasion Tech: Weakness of blacklist: they are reactive. Phishers capitalize on the time gap between a phishing website’s deployment and its subsequent blacklisting, and may increase their return-on-investment (ROI) by prolonging this gap]]></description>
+</item>
+<item>
     <title>Reading Adversarial Papers for Project2</title>
     <link>http://fujiaoji.github.io/posts/adversarialpaper/</link>
     <pubDate>Thu, 16 Feb 2023 13:31:49 -0500</pubDate>
@@ -72,22 +92,6 @@ from PIL import Image import matplotlib.pyplot as plt row_length = 5 column_leng
     <author>Author</author>
     <guid>http://fujiaoji.github.io/posts/usefulinformation/</guid>
     <description><![CDATA[From paper &ldquo;Image similarity using Deep CNN and Curriculum Learning&rdquo; Typical image descriptors: SIFT, LBP, CNN embedding’s etc; From paper Inferring Phishing Intention via Webpage Appearance and Dynamics: A Deep Vision Based Approach&quot; VisualPhishNet[1] use screenshots [1] [2] and logos [3] [4] [5] as the reference representations of target websites Logo2K+ dataset [6] From paper VisualPhishNet Zero Day PhishingWebsite Detection by Visual Similarity SIFT, SURF, HOG, CCH, ORB, etc. Logo extraction paper: [7] Reading, [8] Reference [1] SaharAbdelnabi, Katharina Krombholz, and Mario Fritz VisualPhishNet: Zero-Day Phishing Website Detection by Visual Similarity.]]></description>
-</item>
-<item>
-    <title>Image Similarity Using Deep CNN and Curriculum Learning</title>
-    <link>http://fujiaoji.github.io/posts/image-similarity-using-deep-cnn-and-curriculum-learning/</link>
-    <pubDate>Mon, 26 Dec 2022 12:18:43 -0600</pubDate>
-    <author>Author</author>
-    <guid>http://fujiaoji.github.io/posts/image-similarity-using-deep-cnn-and-curriculum-learning/</guid>
-    <description><![CDATA[Cannot used&hellip; I. Main Contributions Multi-scale CNN used in a Siamese network. This CNN learns a joint image embedding of top as well as lower layers. Employed a novel online pair mining strategy inspired from Curriculum learning which ensures the model finds better local minima. II. Data Used Supervised ML model, need positive and negative pairs CIFAR10, 32*32 III. SIAMESE NETWORK Share parameters ]]></description>
-</item>
-<item>
-    <title>How to write posts</title>
-    <link>http://fujiaoji.github.io/posts/first-post/</link>
-    <pubDate>Sat, 24 Dec 2022 23:49:50 -0600</pubDate>
-    <author>Author</author>
-    <guid>http://fujiaoji.github.io/posts/first-post/</guid>
-    <description><![CDATA[ hugo new posts/first-post.md on FujiaoBlog write in content/posts/first-post.md, change draft to false In FujiaoBlog, hugo -t LoveIt cd public/, git add *, git commit -m &quot;XXX&quot;, git push ]]></description>
 </item>
 </channel>
 </rss>
