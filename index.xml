@@ -37,11 +37,7 @@ from PIL import Image import matplotlib.pyplot as plt row_length = 5 column_leng
     <pubDate>Mon, 26 Dec 2022 12:47:05 -0600</pubDate>
     <author>Author</author>
     <guid>http://fujiaoji.github.io/posts/reading-papers-for-phishing-project/</guid>
-    <description><![CDATA[[toc]
-Reading: 2021-USENIX-Phishpedia: A Hybrid Deep Learning Based Approach to Visually Identify Phishing Webpages Code Available
-Research Question To address two prominent technical challenges in phishing identification, i.e., (i) accurate recognition of identity logos on webpage screenshots, and (ii) matching logo variants of the same brands.
-How Dividing the phishing identification problem into 1) identify logo recognition [use the object detection] and 2) brand recognition problem [use Siamese model].
-Object detection: generates a set of bounding boxes to annotate the position and size of the objects on the image.]]></description>
+    <description><![CDATA[Reading: 2021-USENIX-Phishpedia: A Hybrid Deep Learning Based Approach to Visually Identify Phishing Webpages Code Research Question How Thought Reading: 2021-USENIX-Inferring Phishing Intention via Webpage Appearance and Dynamics a Deep Vision Based Approach Code I. Introduction 1. Situation of anti-phishing method 2. Challenges 3. Main Contribution II. PhishIntention: Design and Development 1. Technical Challenges: 2. Steps Step 1: Abstract Webpage Layout Detection (need labeled data). Step 2: OCR-aided Brand Recognition. Step 3: CRP Classification.]]></description>
 </item>
 <item>
     <title>UsefulInformation</title>
