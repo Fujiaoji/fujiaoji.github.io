@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Reading Papers for Phishing Project - Fujiao Ji</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="Reading Papers for Phishing Project" />
+<meta property="og:description" content="[toc]
+Reading: 2021-USENIX-Phishpedia: A Hybrid Deep Learning Based Approach to Visually Identify Phishing Webpages Code Available
+Research Question To address two prominent technical challenges in phishing identification, i.e., (i) accurate recognition of identity logos on webpage screenshots, and (ii) matching logo variants of the same brands.
+How Dividing the phishing identification problem into 1) identify logo recognition [use the object detection] and 2) brand recognition problem [use Siamese model].
+Object detection: generates a set of bounding boxes to annotate the position and size of the objects on the image." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://fujiaoji.github.io/posts/reading-papers-for-phishing-project/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-26T12:47:05-06:00" />
+<meta property="article:modified_time" content="2022-12-26T12:47:05-06:00" /><meta property="og:site_name" content="My cool site" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Reading Papers for Phishing Project"/>
+<meta name="twitter:description" content="[toc]
+Reading: 2021-USENIX-Phishpedia: A Hybrid Deep Learning Based Approach to Visually Identify Phishing Webpages Code Available
+Research Question To address two prominent technical challenges in phishing identification, i.e., (i) accurate recognition of identity logos on webpage screenshots, and (ii) matching logo variants of the same brands.
+How Dividing the phishing identification problem into 1) identify logo recognition [use the object detection] and 2) brand recognition problem [use Siamese model].
+Object detection: generates a set of bounding boxes to annotate the position and size of the objects on the image."/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://fujiaoji.github.io/posts/reading-papers-for-phishing-project/" /><link rel="prev" href="http://fujiaoji.github.io/posts/usefulinformation/" /><link rel="next" href="http://fujiaoji.github.io/posts/useful-tips-when-writing-codes-on-vscode/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Reading Papers for Phishing Project",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/fujiaoji.github.io\/posts\/reading-papers-for-phishing-project\/"
+        },"genre": "posts","keywords": "ReadPaper","wordcount":  2072 ,
+        "url": "http:\/\/fujiaoji.github.io\/posts\/reading-papers-for-phishing-project\/","datePublished": "2022-12-26T12:47:05-06:00","dateModified": "2022-12-26T12:47:05-06:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Fujiao Ji">Fujiao Ji</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Fujiao Ji">Fujiao Ji</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Reading Papers for Phishing Project</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-12-26">2022-12-26</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2072 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;10 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#code">Code</a></li>
+    <li><a href="#research-question">Research Question</a></li>
+    <li><a href="#how">How</a></li>
+    <li><a href="#thought">Thought</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#code-1">Code</a></li>
+    <li><a href="#i-introduction">I. Introduction</a>
+      <ul>
+        <li><a href="#1-situation-of-anti-phishing-method">1. Situation of anti-phishing method</a></li>
+        <li><a href="#2-challenges">2. Challenges</a></li>
+        <li><a href="#3-main-contribution">3. Main Contribution</a></li>
+      </ul>
+    </li>
+    <li><a href="#ii-phishintention-design-and-development">II. PhishIntention: Design and Development</a>
+      <ul>
+        <li><a href="#1-technical-challenges">1. Technical Challenges:</a></li>
+        <li><a href="#2-steps">2. Steps</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#second-time-read">Second Time Read</a>
+      <ul>
+        <li><a href="#input-and-how">Input: and how:</a></li>
+        <li><a href="#thought-but-i-am-not-sure-how-to-construct-the-triplet-label">Thought: But I am not sure how to construct the triplet label.</a></li>
+        <li><a href="#how-1">How:</a></li>
+        <li><a href="#goal">Goal:</a></li>
+      </ul>
+    </li>
+    <li><a href="#i-introduction-1">I. Introduction</a>
+      <ul>
+        <li><a href="#1-situation-of-anti-phishing-method-1">1. Situation of anti-phishing method</a></li>
+        <li><a href="#2-contributions-of-this-paper">2. Contributions of this paper</a></li>
+      </ul>
+    </li>
+    <li><a href="#ii-preliminaries">II. Preliminaries</a>
+      <ul>
+        <li><a href="#related-works">Related works</a></li>
+      </ul>
+    </li>
+    <li><a href="#iii-limitations-of-published-datasets-screenshots">III. Limitations of published datasets (screenshots)</a></li>
+    <li><a href="#iv-visualphish-dataset">IV. VisualPhish Dataset</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#i-main-contributions">I. Main Contributions</a></li>
+    <li><a href="#ii-data-used">II. Data Used</a></li>
+    <li><a href="#iii-siamese-network">III. SIAMESE NETWORK</a></li>
+    <li><a href="#1-paper-summary">1. Paper summary</a></li>
+    <li><a href="#2-background">2. Background</a></li>
+    <li><a href="#3-model">3. Model</a></li>
+    <li><a href="#4-experiment">4. Experiment</a></li>
+    <li><a href="#5-future">5. Future</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#reference">Reference</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#key-questions">Key Questions</a></li>
+    <li><a href="#other-information">Other information</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>[toc]</p>
+<h1 id="reading-2021-usenix-phishpedia-a-hybrid-deep-learning-based-approach-to-visually-identify-phishing-webpages">Reading: 2021-USENIX-Phishpedia: A Hybrid Deep Learning Based Approach to Visually Identify Phishing Webpages</h1>
+<h2 id="code">Code</h2>
+<p>Available</p>
+<h2 id="research-question">Research Question</h2>
+<p>To address two prominent technical challenges in phishing identification, i.e., (i) accurate recognition of identity logos on webpage screenshots, and (ii) matching logo variants of the same brands.</p>
+<h2 id="how">How</h2>
+<p>Dividing the phishing identification problem into 1) identify logo recognition [use the object detection] and 2) brand recognition problem [use Siamese model].</p>
+<ul>
+<li>Object detection: generates a set of bounding boxes to annotate the position and size of the objects on the image. Using the  <!-- raw HTML omitted -->Fast RCNN <!-- raw HTML omitted -->model. <strong>Input</strong> the screenshot, <strong>output</strong> the (i) predict the object class (i.e., logo or input box) and (ii) refine shape and size of each object.</li>
+<li>Brand recognition problem: target brand list, maintain a list of logo variants and a list of legitimate domains. For logo comparison, they use <!-- raw HTML omitted -->Siamese neural network model<!-- raw HTML omitted --> (for the Siamese model, input conventional training procedure for Siamese model selects three images (I1, I2, I3) as a sample to calculate Triplet losswhere I1 and I2 belong to same class, and I3 belongs to another class. The goal of training is to make sure the similarity of images in the same class (sim(I1, I2)) should be larger than that in different classes (sim(I2, I3 ))., <!-- raw HTML omitted -->there are some related papers in this area !!!<!-- raw HTML omitted -->). But the authors do think it is effective</li>
+</ul>
+<h2 id="thought">Thought</h2>
+<p>Try to draw Figure 5!!!</p>
+<hr>
+<h1 id="reading-2021-usenix-inferring-phishing-intention-via-webpage-appearance-and-dynamics-a-deep-vision-based-approach">Reading: 2021-USENIX-Inferring Phishing Intention via Webpage Appearance and Dynamics a Deep Vision Based Approach</h1>
+<h2 id="code-1">Code</h2>
+<p>Available</p>
+<h2 id="i-introduction">I. Introduction</h2>
+<h3 id="1-situation-of-anti-phishing-method">1. Situation of anti-phishing method</h3>
+<ol>
+<li>Manually verified anti-phishing blacklist: use dynamic blacklists to track reported phishing URLs. eg. Google</li>
+<li>Classification-based methods: trained from collecting phishing dataset, perform binary classification</li>
+<li>Reference-based methods: detecting phishing attacks by referencing a set of representations of well-known brands.</li>
+</ol>
+<h3 id="2-challenges">2. Challenges</h3>
+<ol>
+<li>The blacklists and collected phishing webpages used for training become obsolete very quickly, resulting in a never-ending cat-and-mouse game between phishing attacks and defenses that are based on blacklists/classification.</li>
+<li>Reference-based phishing detection solutions are developed based on the intuition that, the key goal of a phishing attack is to deceive users with pages visually similar to legitimate websites. Recent references are logo and screenshots, but screenshots as a reference do not perfectly capture brand intention, and logos as a reference miss to capture credential-taking intention.</li>
+</ol>
+<h3 id="3-main-contribution">3. Main Contribution</h3>
+<p>They propose a referenced-based phishing detection system that captures both brand intention and credential-taking intention.</p>
+<h2 id="ii-phishintention-design-and-development">II. PhishIntention: Design and Development</h2>
+<p>Given URL, screenshots, html code, a list of protected brand, logo match threshold, CRP search depth, output binary phishing result, target brand. For each brand, the authors maintain its logos and domains.</p>
+<h3 id="1-technical-challenges">1. Technical Challenges:</h3>
+<ol>
+<li>Layout Definition and Extraction. First, visually salient components are hard to be fully formalized. Second, extracting a layout is technically challenging. Heuristics for visually salient HTML elements are hard to define.</li>
+<li>Text-Logo Recognition. First, the logos under the same brand can be very diverse. Second, the logos (especially text logo) under different brands can be visually similar.</li>
+<li>Identifying and Confirming Credential-Taking Intention.</li>
+</ol>
+<h3 id="2-steps">2. Steps</h3>
+<h4 id="step-1-abstract-webpage-layout-detection-need-labeled-data">Step 1: Abstract Webpage Layout Detection (need labeled data).</h4>
+<ol>
+<li>Definition of AWL: given a set of screenshots, AWL is a set of boxes that representing visually salient rectangular regions on screenshots.</li>
+<li>Process: construct a layout dataset of 9K webpage screenshots, annotated with regions and types of salient UI elements. Trained an <!-- raw HTML omitted -->object detection model (Fast R-CNN model)<!-- raw HTML omitted --> to predict salient UI elements on the screenshots.</li>
+</ol>
+<h4 id="step-2-ocr-aided-brand-recognition">Step 2: OCR-aided Brand Recognition.</h4>
+<ol>
+<li>Challenge: Logo can be icon-like or text like image or both.</li>
+<li>Process: The autors applied <!-- raw HTML omitted -->OCR-adied Siamese matching model<!-- raw HTML omitted -->. Using 2 branches to get embedding of logos. One branch is ResNetV2-50 feature extractor to get appearance-based embedding, the other branch is OCR to get text-based embedding. Then task ASTER as model. Compare 2 logos&rsquo; cosine similarity.</li>
+</ol>
+<h4 id="step-3-crp-classification">Step 3: CRP Classification.</h4>
+<ol>
+<li>Process: If match a brand, then build a <!-- raw HTML omitted -->CRP classifier<!-- raw HTML omitted -->
+taking the screenshot and the AWL as input, classifies whether the webpage requires user credentials. If is CRP but domain is not aligned with list brands’ domain, then it is phishing. If not, then next step</li>
+</ol>
+<h4 id="step-4-crp-transition-location">Step 4: CRP-Transition Location.</h4>
+<ol>
+<li>Process: Search for button link to the CRP. So construct a dataset annotated by the CRP-button. Continue aforementioned process</li>
+</ol>
+<hr>
+<h1 id="reading-2020-visualphishnet-zero-day-phishing-website-detection-by-visual-similarity">Reading: 2020-VisualPhishNet Zero Day Phishing Website Detection by Visual Similarity</h1>
+<h2 id="second-time-read">Second Time Read</h2>
+<h3 id="input-and-how">Input: and how:</h3>
+<ol>
+<li>screenshots triplets from trusted lists’ screenshots (anchor, positive, and negative), an anchor image, a positive image whose identity is the same as the anchor, and a negative image with a different identity than the anchor. -&gt; distance for (pos, anchor) &lt; (neg, anchor)</li>
+<li>construct a query that 1 phishing web only 1 screenshot in this query set. Then calculate the distance from query to all other dataset, then selecte samples from the same web has the largest distance, from different, has the smallest distancs. Then this is a new subset. Continue training use this dataset. Then repeat.</li>
+</ol>
+<h3 id="thought-but-i-am-not-sure-how-to-construct-the-triplet-label">Thought: But I am not sure how to construct the triplet label.</h3>
+<p>In our problem, the positive image is a screenshot of the same website as the sampled anchor, and similarly, the negative image is a screenshot of a website that is different from the anchor.</p>
+<h3 id="how-1">How:</h3>
+<p>VisualPhishNet, adopts the triplet network paradigm with three shared convolutional networks. 1: random sample to train the network,</p>
+<h3 id="goal">Goal:</h3>
+<p>The overall objective of the network is to learn a feature space in which the distance between the positive and anchor images’ embeddings
+similarity-based phishing detection framework, based on a triplet Convolutional Neural Network (CNN). we treated the problem as a similarity learning problem with deep learning using Siamese or triplet</p>
+<p>The Siamese networks are two networks with shared weights trained with the goal of learning a feature representation of the input such that similar images have higher proximity in the new feature space than different images.</p>
+<h2 id="i-introduction-1">I. Introduction</h2>
+<h3 id="1-situation-of-anti-phishing-method-1">1. Situation of anti-phishing method</h3>
+<p>Phishing webpages try to deceive paper by high visual similarity between phishing webpage and legistimate ones. Some methods maintain a list of commonly attack pages (domain name and their screenshots). However, these methods have limitations: 1) list is small; 2) attackers can bypass detection by crafting partially similar phishing pages with different background pictures.</p>
+<h3 id="2-contributions-of-this-paper">2. Contributions of this paper</h3>
+<ol>
+<li>Present dataset of VisualPhish, 155 trust websites with 9363 pages.</li>
+<li>Present VisualPhishNet, a similarity-based detection model that is the first to utilize a deep learning approach (in particular, triplet convolutional neural networks) to learn a robust visual similarity metric between any two same-website webpages’ screenshots, instead of relying on one-to-one matching, which outperforms prior work by a large margin.</li>
+<li>Code: <a href="https://github.com/S-Abdelnabi/VisualPhishNet" target="_blank" rel="noopener noreffer ">https://github.com/S-Abdelnabi/VisualPhishNet</a></li>
+</ol>
+<h2 id="ii-preliminaries">II. Preliminaries</h2>
+<h3 id="related-works">Related works</h3>
+<ol>
+<li>Page-based similarity approach: compare HTML.</li>
+<li>Image-based similarity approach: compare screenshots, like EMD, etc.</li>
+<li>Some features: SIFT, SURF, HOG, CCH, ORB, etc.</li>
+</ol>
+<h2 id="iii-limitations-of-published-datasets-screenshots">III. Limitations of published datasets (screenshots)</h2>
+<ol>
+<li>DeltaPhish</li>
+<li>Phish-IRIS</li>
+</ol>
+<h2 id="iv-visualphish-dataset">IV. VisualPhish Dataset</h2>
+<ol>
+<li>How to construct the phishing dataset: crawled and saved the screenshots of the active verified phishing pages from PhishTank which yielded 10250 pages. Filtering to have nonduplicated screenshots (i.e. unique visual appearance). Then there are 1195 phishing pages targeting 155 websites.</li>
+<li>How to construct the targeted legistimate dataset: crawled all internal links that were parsed from the HTML file of the homepage. Then there are 155 websites with 9363</li>
+</ol>
+<hr>
+<h1 id="reading-image-similarity-using-deep-cnn-and-curriculum-learning">Reading: Image Similarity Using Deep CNN and Curriculum Learning</h1>
+<h2 id="i-main-contributions">I. Main Contributions</h2>
+<ol>
+<li>Multi-scale CNN used in a Siamese network. This CNN learns a joint image embedding of top as well as lower layers.</li>
+<li>Employed a novel online pair mining strategy inspired from Curriculum learning which ensures the model finds better local minima.</li>
+</ol>
+<h2 id="ii-data-used">II. Data Used</h2>
+<ol>
+<li>Supervised ML model, need positive and negative pairs</li>
+<li>CIFAR10, 32*32</li>
+</ol>
+<h2 id="iii-siamese-network">III. SIAMESE NETWORK</h2>
+<ol>
+<li>Share parameters</li>
+</ol>
+<hr>
+<h2 id="1-paper-summary">1. Paper summary</h2>
+<p>The authors proposed an anti-phishing method to protect Internet users from the phishing attacks. Specifically, they first obtained screenshots, then segmented them to get the logos. After that, they utilized Google image database to search and return keywords. Next, they used the keywords to search again, then compare domain name between the query website and the second search domain name.</p>
+<h2 id="2-background">2. Background</h2>
+<ul>
+<li>Earth Movers Distance (EMD): Fu et al. proposed a visual similarity method which uses EMD to measure the webpage visual similarity in distinguishing the phishing websites. They first converted the involved webpages into low resolution images and then used color and coordinate features to represent the image signatures. After that, they used EMD to calculate the signature distances of the converted images. If the EMD-based visual similarity of a webpage exceeds the threshold of a protected webpage, that page will be classified as a phishing websites. Since this method is assuming the phishing website is visually very similar to the targeted legitimate website, phishers can easily thwart the detection by decreasing slightly the degree of visual similarity.</li>
+</ul>
+<h2 id="3-model">3. Model</h2>
+<ul>
+<li>Main objective: phishing website try to deceive the users into believing that the phishing website they are visiting is the legitimate website</li>
+<li>The model includes logo segmentation and website identity identification processes. In logo segmentation process, the logo is extracted from the website in query. Whereas in website identity identification process, extracted logo will be used to determine the identity of the website. In the second step, we use google database of different websites logos.</li>
+<li>Whole Process: capture screenshots, segment, search, return keywords, search, compare domain name</li>
+</ul>
+<h2 id="4-experiment">4. Experiment</h2>
+<ul>
+<li>Data:
+<ul>
+<li><a href="http://www.phishtank.com" target="_blank" rel="noopener noreffer ">PhishTank</a></li>
+<li><a href="http://www.alexa.com" target="_blank" rel="noopener noreffer ">Alexa</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="5-future">5. Future</h2>
+<ul>
+<li>Employ image processing algorithm tp automate the best fit logo extraction process.</li>
+</ul>
+<hr>
+<h1 id="logo-detection-using-deep-learning-with-pretrained-cnn-models">Logo Detection Using Deep Learning with Pretrained CNN Models</h1>
+<p><strong>What:</strong></p>
+<ol>
+<li>Use pre-trained object detection models to enhance the performance of logo detection tasks when only a portion of labeled training images taken in truthful context is obtainable, evading wide manual classification costs</li>
+<li>In this paper, RCNN, FRCNN and RetinaNet were used for logo detection (In this paper, there is a comarason of different image methods, deserving read)
+<strong>How</strong></li>
+<li>Use pretrained model to get features: 1) RetinaNet, 2) Faster R-CNN</li>
+</ol>
+<p><strong>Other Information</strong></p>
+<ol>
+<li>Traditional object detection and classification approaches steps: informative region selection, feature extraction, and classification</li>
+<li>Logo detection vs Logo recognition: LR is used to detect a logo&rsquo;s identity in an image, whereas LD is considered to detect a logo&rsquo;s position. Both LD and LR are based on classification methods</li>
+<li><!-- raw HTML omitted -->There is a table, very useful for icon<!-- raw HTML omitted --></li>
+</ol>
+<h1 id="learning-icons-appearance-similarity">Learning icons appearance similarity</h1>
+<p><strong>What:</strong></p>
+<ol>
+<li>main goal is to obtain a similarity metric between a pair of icons</li>
+<li>Present an icon dataset labeled by designers where each collection shares a coherent style and visual identity.</li>
+<li>We learn icons’ appearance similarity using a Siamese Neural Network with a triplet
+loss function and adaptive sampling trained from our weakly-labeled dataset and
+evaluated with human ratings.</li>
+<li>We propose several applications including search by similarity and a method to create icon sets optimized for style and visual identity in order to help users on user-interface design tasks.</li>
+<li>We collect annotated ratings on the perception of appearance similarity for iconography</li>
+<li>Sum: Presented a model for measuring the properties of style and visual identity in iconography. Specifically, trained a Siamese Neural Network with an on-line dataset of icons organized in visually coherent collections that are used to adaptively sample training data and optimize the training process. As the dataset contains noise, we further collect human-rated information on the perception of icon’s similarity which will be used for evaluating and testing the proposed model</li>
+<li>Our learned model maps each icon into a 256-dimensional feature space which allows direct comparisons by computing Euclidean distances
+<strong>How</strong></li>
+<li>Our main goal is to obtain a similarity metric between a pair of icons</li>
+<li>To train similarity metric, they used a weakly labeled dataset. Part of the dataset is used to launch crowde-sourcing surveys and gathering human-rating to test and compare the model. The other part is used to train the Siamese Neural Network to work as the similarity metric.
+<strong>Other Information</strong></li>
+<li>Siamese Neural Network
+孪生网络，share weights</li>
+</ol>
+<h2 id="reference">Reference</h2>
+<ul>
+<li>[1] Logo Detection Using Deep Learning with Pretrained CNN Models. Engineering, Technology &amp; Applied Science Research Vol. 11, No. 1, 2021, 6724-6729.</li>
+<li>[2] Lagunas, M., Garces, E. &amp; Gutierrez, D. Learning icons appearance similarity. Multimed Tools Appl 78, 10733–10751 (2019). <a href="https://doi.org/10.1007/s11042-018-6628-7" target="_blank" rel="noopener noreffer ">https://doi.org/10.1007/s11042-018-6628-7</a>.</li>
+</ul>
+<hr>
+<h1 id="personalized-persuasion-quantifying-susceptibility-to-information-exploitation-in-spear-phishing-attacks">Personalized persuasion: Quantifying susceptibility to information exploitation in spear-phishing attacks</h1>
+<p>XXXX</p>
+<hr>
+<h1 id="end-to-end-measurements-of-email-spoofing-attacks">End-to-End Measurements of Email Spoofing Attacks</h1>
+<h2 id="key-questions">Key Questions</h2>
+<ol>
+<li>How do email providers detect and handle forged emails?</li>
+<li>Under what conditions can forged emails penetrate the defense to reach user inbox?</li>
+<li>Once the forged email gets in, how email providers warn users? Is the warning truly effective?</li>
+</ol>
+<h2 id="other-information">Other information</h2>
+<ol>
+<li>Spear phishing means : focus on a specific aim</li>
+</ol>
+<hr>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2022-12-26</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://fujiaoji.github.io/posts/reading-papers-for-phishing-project/" data-title="Reading Papers for Phishing Project" data-hashtags="ReadPaper"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://fujiaoji.github.io/posts/reading-papers-for-phishing-project/" data-hashtag="ReadPaper"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://fujiaoji.github.io/posts/reading-papers-for-phishing-project/" data-title="Reading Papers for Phishing Project"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://fujiaoji.github.io/posts/reading-papers-for-phishing-project/" data-title="Reading Papers for Phishing Project"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://fujiaoji.github.io/posts/reading-papers-for-phishing-project/" data-title="Reading Papers for Phishing Project"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/readpaper/">ReadPaper</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/usefulinformation/" class="prev" rel="prev" title="UsefulInformation"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>UsefulInformation</a>
+            <a href="/posts/useful-tips-when-writing-codes-on-vscode/" class="next" rel="next" title="Useful Tips When Writing Codes on Vscode">Useful Tips When Writing Codes on Vscode<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.108.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
