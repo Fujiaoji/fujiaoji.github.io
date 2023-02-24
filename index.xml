@@ -11,8 +11,7 @@
     <pubDate>Thu, 23 Feb 2023 13:07:46 -0500</pubDate>
     <author>Author</author>
     <guid>http://fujiaoji.github.io/posts/reading-papers-for-url-and-blacklist-project/</guid>
-    <description><![CDATA[Reading: An Analysis of Phishing Blacklists: Google Safe Browsing, OpenPhish, and PhishTank Abstract Focus on Google safe browsing, OpenPhish, PhishTank Intro Phishing blacklist are defense strategy that aim to protect people from phishing attacks. Blacklist contain known phishing URLs. These blacklists need update quickly and regularly to protect users. Urls should be removed from the blacklist when they are no longer a threat. Add again when threat again.
-What they have done: study 3 blacklists: GSB, PT, and OP, to determine uptake, dropout, typical lifetimes, and any overlap of URLs in these blacklists.]]></description>
+    <description><![CDATA[Reading: An Analysis of Phishing Blacklists: Google Safe Browsing, OpenPhish, and PhishTank Abstract Intro Design The key experiments we carry out in this paper are: Methodology Reading: PhishFarm: A Scalable Framework for Measuring the Effectiveness of Evasion Techniques Against Browser Phishing Blacklists Research Question Abstract Introduction background Experiment Reading: PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist Question: 2. Background 2.1 phishing attacks 2.2 anti-phishing blacklists 3. Blacklist Evaluation metrics 3.]]></description>
 </item>
 <item>
     <title>How to Subplot Pictures to One Figure</title>
