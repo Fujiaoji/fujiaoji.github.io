@@ -18,7 +18,7 @@ from PIL import Image import matplotlib.pyplot as plt row_length = 5 column_leng
     <pubDate>Tue, 03 Jan 2023 16:28:09 -0600</pubDate>
     <author>Author</author>
     <guid>http://fujiaoji.github.io/posts/useful-tips-when-writing-codes-on-vscode/</guid>
-    <description><![CDATA[ Zip a folder: zip -r destination_folder_name.zip source_folder_name Unzip a folder: unzip source_folder_name.zip -d ./destination_folder_name/. Specifically, ./ means current directory, ../ means parent directory, ~ means home directory, / means root directory. Do not use / directory !!! In linux, terminal, etc., create a new file, touch XXX.cpp In terminal, command + T will help you open a new window ]]></description>
+    <description><![CDATA[ Zip a folder: zip -r destination_folder_name.zip source_folder_name Unzip a folder: unzip source_folder_name.zip -d ./destination_folder_name/. Specifically, ./ means current directory, ../ means parent directory, ~ means home directory, / means root directory. Do not use / directory !!! In linux, terminal, etc., create a new file, touch XXX.cpp In terminal, command + T will help you open a new window check test or master command-shift-P to master or test 点第三个　commit or publish ]]></description>
 </item>
 <item>
     <title>How to write posts</title>
