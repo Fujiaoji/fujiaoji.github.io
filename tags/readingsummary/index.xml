@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>ReadingSummary - Tag - Fujiao Ji</title>
+        <link>http://fujiaoji.github.io/tags/readingsummary/</link>
+        <description>ReadingSummary - Tag - Fujiao Ji</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 23 Feb 2023 13:07:46 -0500</lastBuildDate><atom:link href="http://fujiaoji.github.io/tags/readingsummary/" rel="self" type="application/rss+xml" /><item>
+    <title>Reading Summary: URL and Blacklist Project</title>
+    <link>http://fujiaoji.github.io/posts/reading-papers-for-url-and-blacklist-project/</link>
+    <pubDate>Thu, 23 Feb 2023 13:07:46 -0500</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/reading-papers-for-url-and-blacklist-project/</guid>
+    <description><![CDATA[Reading: An Analysis of Phishing Blacklists: Google Safe Browsing, OpenPhish, and PhishTank Reading: PhishFarm: A Scalable Framework for Measuring the Effectiveness of Evasion Techniques Against Browser Phishing Blacklists Reading: PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist ]]></description>
+</item>
+<item>
+    <title>Reading Summary: Phishing Project</title>
+    <link>http://fujiaoji.github.io/posts/reading-papers-for-phishing-project/</link>
+    <pubDate>Mon, 26 Dec 2022 12:47:05 -0600</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/reading-papers-for-phishing-project/</guid>
+    <description><![CDATA[2021-USENIX-Phishpedia: A Hybrid Deep Learning Based Approach to Visually Identify Phishing Webpages 2021-USENIX-Inferring Phishing Intention via Webpage Appearance and Dynamics a Deep Vision Based Approach 2020-VisualPhishNet Zero Day Phishing Website Detection by Visual Similarity 2017-Image Similarity Using Deep CNN and Curriculum Learning 1. Paper summary The authors proposed an anti-phishing method to protect Internet users from the phishing attacks. Specifically, they first obtained screenshots, then segmented them to get the logos.]]></description>
+</item>
+</channel>
+</rss>

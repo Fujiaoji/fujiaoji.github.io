@@ -3,57 +3,95 @@
         <title>All Posts - Fujiao Ji</title>
         <link>http://fujiaoji.github.io/posts/</link>
         <description>All Posts | Fujiao Ji</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 23 Feb 2023 13:07:46 -0500</lastBuildDate><atom:link href="http://fujiaoji.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Reading: URL and Blacklist Project</title>
-    <link>http://fujiaoji.github.io/posts/reading-papers-for-url-and-blacklist-project/</link>
-    <pubDate>Thu, 23 Feb 2023 13:07:46 -0500</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 24 Feb 2023 19:08:37 -0500</lastBuildDate><atom:link href="http://fujiaoji.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Reading: an Analysis of Phishing Blacklists GSB OP PT</title>
+    <link>http://fujiaoji.github.io/posts/reading-an-analysis-of-phishing-blacklists-gsb-op-pt/</link>
+    <pubDate>Fri, 24 Feb 2023 19:08:37 -0500</pubDate>
     <author>Author</author>
-    <guid>http://fujiaoji.github.io/posts/reading-papers-for-url-and-blacklist-project/</guid>
-    <description><![CDATA[Reading: An Analysis of Phishing Blacklists: Google Safe Browsing, OpenPhish, and PhishTank Abstract Intro Design The key experiments we carry out in this paper are: Methodology Reading: PhishFarm: A Scalable Framework for Measuring the Effectiveness of Evasion Techniques Against Browser Phishing Blacklists Research Question Abstract Introduction background Experiment Reading: PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist Question: 2. Background 2.1 phishing attacks 2.2 anti-phishing blacklists 3. Blacklist Evaluation metrics 3.]]></description>
+    <guid>http://fujiaoji.github.io/posts/reading-an-analysis-of-phishing-blacklists-gsb-op-pt/</guid>
+    <description><![CDATA[Abstract Focus on Google safe browsing, OpenPhish, PhishTank Intro Phishing blacklist are defense strategy that aim to protect people from phishing attacks. Blacklist contain known phishing URLs. These blacklists need update quickly and regularly to protect users. Urls should be removed from the blacklist when they are no longer a threat. Add again when threat again.
+What they have done: study 3 blacklists: GSB, PT, and OP, to determine uptake, dropout, typical lifetimes, and any overlap of URLs in these blacklists.]]></description>
 </item>
 <item>
-    <title>How to Subplot Pictures to One Figure</title>
-    <link>http://fujiaoji.github.io/posts/how-to-subplot-pictures-to-one-figure/</link>
-    <pubDate>Wed, 04 Jan 2023 16:22:25 -0600</pubDate>
+    <title>Reading: PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist</title>
+    <link>http://fujiaoji.github.io/posts/reading-phishtime/</link>
+    <pubDate>Fri, 24 Feb 2023 19:06:34 -0500</pubDate>
     <author>Author</author>
-    <guid>http://fujiaoji.github.io/posts/how-to-subplot-pictures-to-one-figure/</guid>
-    <description><![CDATA[Subplot pictures in one figure:
-from PIL import Image import matplotlib.pyplot as plt row_length = 5 column_length = 5 for i in range(row_length): for j in range(column_length): plt.subplot(row_length, column_length, i*5+j+1) im = Image.open(&#34;a.png&#34;) if j == 0: plt.ylabel(&#34;XXX&#34;) plt.yticks([]) plt.xticks([]) plt.imshow(im, cmap=&#39;gray&#39;) plt.tight_layout() plt.savefig(&#34;test.png&#34;) ]]></description>
+    <guid>http://fujiaoji.github.io/posts/reading-phishtime/</guid>
+    <description><![CDATA[Question: How they test which web can pass or not pass the blacklist??? How they design the experiment 2. Background Spearphishing: concentrate on a specific group or individuals Large-scale phishing: targets a wide range of victims and allows fishers to profit through volume
+2.1 phishing attacks Typical phishing attack: appearance similar to the legistimate website.
+2.2 anti-phishing blacklists Evasion Tech: Weakness of blacklist: they are reactive. Phishers capitalize on the time gap between a phishing website’s deployment and its subsequent blacklisting, and may increase their return-on-investment (ROI) by prolonging this gap]]></description>
 </item>
 <item>
-    <title>Useful Tips When Writing Codes on Vscode</title>
-    <link>http://fujiaoji.github.io/posts/useful-tips-when-writing-codes-on-vscode/</link>
-    <pubDate>Tue, 03 Jan 2023 16:28:09 -0600</pubDate>
+    <title>Reading: PhishFarm: A Scalable Framework for Measuring the Effectiveness of Evasion Techniques Against Browser Phishing Blacklists</title>
+    <link>http://fujiaoji.github.io/posts/reading-phishfarm/</link>
+    <pubDate>Fri, 24 Feb 2023 19:05:38 -0500</pubDate>
     <author>Author</author>
-    <guid>http://fujiaoji.github.io/posts/useful-tips-when-writing-codes-on-vscode/</guid>
-    <description><![CDATA[ Zip a folder: zip -r destination_folder_name.zip source_folder_name Unzip a folder: unzip source_folder_name.zip -d ./destination_folder_name/. Specifically, ./ means current directory, ../ means parent directory, ~ means home directory, / means root directory. Do not use / directory !!! In linux, terminal, etc., create a new file, touch XXX.cpp In terminal, command + T will help you open a new window check test or master command-shift-P to master or test 点第三个　commit or publish ]]></description>
+    <guid>http://fujiaoji.github.io/posts/reading-phishfarm/</guid>
+    <description><![CDATA[Research Question We know that blacklists are effective when they function as intended, but is this always the case? Do blacklists offer adequate protection against phishers’ evasion efforts such as cloaking, or are phishers launching attacks with impunity? We focus on answering these questions in the rest of this paper.
+Abstract PhishFarm: testing resilence of anti-phishing entities and browser blacklists to attackers&rsquo; evasion.
+Introduction Weakness of blacklist: reactive. So attackers use cloaking technique to avoid or delay detection.]]></description>
 </item>
 <item>
-    <title>Reading: Phishing Project</title>
-    <link>http://fujiaoji.github.io/posts/reading-papers-for-phishing-project/</link>
-    <pubDate>Mon, 26 Dec 2022 12:47:05 -0600</pubDate>
+    <title>Reading: End to End Measurements of Email Spoofing Attacks</title>
+    <link>http://fujiaoji.github.io/posts/reading-end-to-end-measurements-of-email-spoofing-attacks/</link>
+    <pubDate>Fri, 24 Feb 2023 19:03:34 -0500</pubDate>
     <author>Author</author>
-    <guid>http://fujiaoji.github.io/posts/reading-papers-for-phishing-project/</guid>
-    <description><![CDATA[Reading: 2021-USENIX-Phishpedia: A Hybrid Deep Learning Based Approach to Visually Identify Phishing Webpages Code Available
+    <guid>http://fujiaoji.github.io/posts/reading-end-to-end-measurements-of-email-spoofing-attacks/</guid>
+    <description><![CDATA[Key Questions How do email providers detect and handle forged emails? Under what conditions can forged emails penetrate the defense to reach user inbox? Once the forged email gets in, how email providers warn users? Is the warning truly effective? Other information Spear phishing means : focus on a specific aim ]]></description>
+</item>
+<item>
+    <title>Reading: Learning Icons Appearance Similarity</title>
+    <link>http://fujiaoji.github.io/posts/learning-icons-appearance-similarity/</link>
+    <pubDate>Fri, 24 Feb 2023 18:59:54 -0500</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/learning-icons-appearance-similarity/</guid>
+    <description><![CDATA[What:
+main goal is to obtain a similarity metric between a pair of icons Present an icon dataset labeled by designers where each collection shares a coherent style and visual identity. We learn icons’ appearance similarity using a Siamese Neural Network with a triplet loss function and adaptive sampling trained from our weakly-labeled dataset and evaluated with human ratings. We propose several applications including search by similarity and a method to create icon sets optimized for style and visual identity in order to help users on user-interface design tasks.]]></description>
+</item>
+<item>
+    <title>Reading: Logo Detection Using Deep Learning With Pretrained CNN Models</title>
+    <link>http://fujiaoji.github.io/posts/logo-detection-using-deep-learning-with-pretrained-cnn-models/</link>
+    <pubDate>Fri, 24 Feb 2023 18:58:22 -0500</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/logo-detection-using-deep-learning-with-pretrained-cnn-models/</guid>
+    <description><![CDATA[What: Use pre-trained object detection models to enhance the performance of logo detection tasks when only a portion of labeled training images taken in truthful context is obtainable, evading wide manual classification costs In this paper, RCNN, FRCNN and RetinaNet were used for logo detection (In this paper, there is a comarason of different image methods, deserving read) How Use pretrained model to get features: 1) RetinaNet, 2) Faster R-CNN Other Information]]></description>
+</item>
+<item>
+    <title>Reading: 2017 Image Similarity Using Deep CNN and Curriculum Learning</title>
+    <link>http://fujiaoji.github.io/posts/reading-2017-image-similarity-using-deep-cnn-and-curriculum-learning/</link>
+    <pubDate>Fri, 24 Feb 2023 18:55:45 -0500</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/reading-2017-image-similarity-using-deep-cnn-and-curriculum-learning/</guid>
+    <description><![CDATA[I. Main Contributions Multi-scale CNN used in a Siamese network. This CNN learns a joint image embedding of top as well as lower layers. Employed a novel online pair mining strategy inspired from Curriculum learning which ensures the model finds better local minima. II. Data Used Supervised ML model, need positive and negative pairs CIFAR10, 32*32 III. SIAMESE NETWORK Share parameters ]]></description>
+</item>
+<item>
+    <title>Reading: 2020-VisualPhishNet: Zero Day Phishing Website Detection by Visual Similarity</title>
+    <link>http://fujiaoji.github.io/posts/reading-2020-visualphishnet-zero-day-phishing-website-detection-by-visual-similarity/</link>
+    <pubDate>Fri, 24 Feb 2023 18:33:09 -0500</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/reading-2020-visualphishnet-zero-day-phishing-website-detection-by-visual-similarity/</guid>
+    <description><![CDATA[Second Time Read Input and how: screenshots triplets from trusted lists’ screenshots (anchor, positive, and negative), an anchor image, a positive image whose identity is the same as the anchor, and a negative image with a different identity than the anchor. -&gt; distance for (pos, anchor) &lt; (neg, anchor) construct a query that 1 phishing web only 1 screenshot in this query set. Then calculate the distance from query to all other dataset, then selecte samples from the same web has the largest distance, from different, has the smallest distancs.]]></description>
+</item>
+<item>
+    <title>Reading: 2021 USENIX Inferring Phishing Intention via Webpage Appearance and Dynamics a Deep Vision Based Approach</title>
+    <link>http://fujiaoji.github.io/posts/reading-2021-usenix-inferring-phishing-intention-via-webpage-appearance-and-dynamics-a-deep-vision-based-approach/</link>
+    <pubDate>Fri, 24 Feb 2023 18:29:49 -0500</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/reading-2021-usenix-inferring-phishing-intention-via-webpage-appearance-and-dynamics-a-deep-vision-based-approach/</guid>
+    <description><![CDATA[Code Available
+I. Introduction 1. Situation of anti-phishing method Manually verified anti-phishing blacklist: use dynamic blacklists to track reported phishing URLs. eg. Google Classification-based methods: trained from collecting phishing dataset, perform binary classification Reference-based methods: detecting phishing attacks by referencing a set of representations of well-known brands. 2. Challenges The blacklists and collected phishing webpages used for training become obsolete very quickly, resulting in a never-ending cat-and-mouse game between phishing attacks and defenses that are based on blacklists/classification.]]></description>
+</item>
+<item>
+    <title>Reading: 2021-USENIX-Phishpedia: A Hybrid Deep Learning Based Approach to Visually Identify Phishing Webpages</title>
+    <link>http://fujiaoji.github.io/posts/reading-2021-usenix-phishpedia/</link>
+    <pubDate>Fri, 24 Feb 2023 18:27:05 -0500</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/reading-2021-usenix-phishpedia/</guid>
+    <description><![CDATA[Code Available
 Research Question To address two prominent technical challenges in phishing identification, i.e., (i) accurate recognition of identity logos on webpage screenshots, and (ii) matching logo variants of the same brands.
 How Dividing the phishing identification problem into 1) identify logo recognition [use the object detection] and 2) brand recognition problem [use Siamese model].
 Object detection: generates a set of bounding boxes to annotate the position and size of the objects on the image.]]></description>
-</item>
-<item>
-    <title>UsefulInformation</title>
-    <link>http://fujiaoji.github.io/posts/usefulinformation/</link>
-    <pubDate>Mon, 26 Dec 2022 12:23:49 -0600</pubDate>
-    <author>Author</author>
-    <guid>http://fujiaoji.github.io/posts/usefulinformation/</guid>
-    <description><![CDATA[From paper &ldquo;Image similarity using Deep CNN and Curriculum Learning&rdquo; Typical image descriptors: SIFT, LBP, CNN embedding’s etc; From paper Inferring Phishing Intention via Webpage Appearance and Dynamics: A Deep Vision Based Approach&quot; VisualPhishNet[1] use screenshots [1] [2] and logos [3] [4] [5] as the reference representations of target websites Logo2K+ dataset [6] From paper VisualPhishNet Zero Day PhishingWebsite Detection by Visual Similarity SIFT, SURF, HOG, CCH, ORB, etc. Logo extraction paper: [7] Reading, [8] Reference [1] SaharAbdelnabi, Katharina Krombholz, and Mario Fritz VisualPhishNet: Zero-Day Phishing Website Detection by Visual Similarity.]]></description>
-</item>
-<item>
-    <title>How to write posts</title>
-    <link>http://fujiaoji.github.io/posts/first-post/</link>
-    <pubDate>Sat, 24 Dec 2022 23:49:50 -0600</pubDate>
-    <author>Author</author>
-    <guid>http://fujiaoji.github.io/posts/first-post/</guid>
-    <description><![CDATA[ hugo new posts/first-post.md on FujiaoBlog write in content/posts/first-post.md, change draft to false In FujiaoBlog, hugo -t LoveIt cd public/, git add *, git commit -m &quot;XXX&quot;, git push ]]></description>
 </item>
 </channel>
 </rss>

@@ -2,13 +2,25 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://fujiaoji.github.io/</loc><lastmod>2023-02-23T13:07:46-05:00</lastmod></url><url>
-            <loc>http://fujiaoji.github.io/posts/</loc><lastmod>2023-02-23T13:07:46-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/</loc><lastmod>2023-02-24T19:08:37-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/</loc><lastmod>2023-02-24T19:08:37-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/reading-an-analysis-of-phishing-blacklists-gsb-op-pt/</loc><lastmod>2023-02-24T19:08:37-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/tags/readpaper/</loc><lastmod>2023-02-24T19:08:37-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/tags/</loc><lastmod>2023-02-24T19:08:37-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/reading-phishtime/</loc><lastmod>2023-02-24T19:06:34-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/reading-phishfarm/</loc><lastmod>2023-02-24T19:05:38-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/reading-end-to-end-measurements-of-email-spoofing-attacks/</loc><lastmod>2023-02-24T19:03:34-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/learning-icons-appearance-similarity/</loc><lastmod>2023-02-24T18:59:54-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/logo-detection-using-deep-learning-with-pretrained-cnn-models/</loc><lastmod>2023-02-24T18:58:22-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/reading-2017-image-similarity-using-deep-cnn-and-curriculum-learning/</loc><lastmod>2023-02-24T18:55:45-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/reading-2020-visualphishnet-zero-day-phishing-website-detection-by-visual-similarity/</loc><lastmod>2023-02-24T18:33:09-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/reading-2021-usenix-inferring-phishing-intention-via-webpage-appearance-and-dynamics-a-deep-vision-based-approach/</loc><lastmod>2023-02-24T18:29:49-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/reading-2021-usenix-phishpedia/</loc><lastmod>2023-02-24T18:27:05-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/posts/how-to-create-branch-in-github/</loc><lastmod>2023-02-24T17:58:18-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/tags/tips/</loc><lastmod>2023-02-24T17:58:18-05:00</lastmod></url><url>
             <loc>http://fujiaoji.github.io/posts/reading-papers-for-url-and-blacklist-project/</loc><lastmod>2023-02-23T13:07:46-05:00</lastmod></url><url>
-            <loc>http://fujiaoji.github.io/tags/readpaper/</loc><lastmod>2023-02-23T13:07:46-05:00</lastmod></url><url>
-            <loc>http://fujiaoji.github.io/tags/</loc><lastmod>2023-02-23T13:07:46-05:00</lastmod></url><url>
+            <loc>http://fujiaoji.github.io/tags/readingsummary/</loc><lastmod>2023-02-23T13:07:46-05:00</lastmod></url><url>
             <loc>http://fujiaoji.github.io/posts/how-to-subplot-pictures-to-one-figure/</loc><lastmod>2023-01-04T16:22:25-06:00</lastmod></url><url>
-            <loc>http://fujiaoji.github.io/tags/tips/</loc><lastmod>2023-01-04T16:22:25-06:00</lastmod></url><url>
             <loc>http://fujiaoji.github.io/posts/useful-tips-when-writing-codes-on-vscode/</loc><lastmod>2023-01-03T16:28:09-06:00</lastmod></url><url>
             <loc>http://fujiaoji.github.io/posts/reading-papers-for-phishing-project/</loc><lastmod>2022-12-26T12:47:05-06:00</lastmod></url><url>
             <loc>http://fujiaoji.github.io/tags/needread/</loc><lastmod>2022-12-26T12:23:49-06:00</lastmod></url><url>

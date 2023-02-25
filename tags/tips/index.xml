@@ -3,7 +3,15 @@
         <title>Tips - Tag - Fujiao Ji</title>
         <link>http://fujiaoji.github.io/tags/tips/</link>
         <description>Tips - Tag - Fujiao Ji</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 04 Jan 2023 16:22:25 -0600</lastBuildDate><atom:link href="http://fujiaoji.github.io/tags/tips/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 24 Feb 2023 17:58:18 -0500</lastBuildDate><atom:link href="http://fujiaoji.github.io/tags/tips/" rel="self" type="application/rss+xml" /><item>
+    <title>How to Create Branch in Github</title>
+    <link>http://fujiaoji.github.io/posts/how-to-create-branch-in-github/</link>
+    <pubDate>Fri, 24 Feb 2023 17:58:18 -0500</pubDate>
+    <author>Author</author>
+    <guid>http://fujiaoji.github.io/posts/how-to-create-branch-in-github/</guid>
+    <description><![CDATA[ git clone XXX cd directory git branch XXX, create a branch check test or master, command-shift-P to master or test commit or publish through the third one ]]></description>
+</item>
+<item>
     <title>How to Subplot Pictures to One Figure</title>
     <link>http://fujiaoji.github.io/posts/how-to-subplot-pictures-to-one-figure/</link>
     <pubDate>Wed, 04 Jan 2023 16:22:25 -0600</pubDate>

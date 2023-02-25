@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Reading: PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist - Fujiao Ji</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="Reading: PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist" />
+<meta property="og:description" content="Question: How they test which web can pass or not pass the blacklist??? How they design the experiment 2. Background Spearphishing: concentrate on a specific group or individuals Large-scale phishing: targets a wide range of victims and allows fishers to profit through volume
+2.1 phishing attacks Typical phishing attack: appearance similar to the legistimate website.
+2.2 anti-phishing blacklists Evasion Tech: Weakness of blacklist: they are reactive. Phishers capitalize on the time gap between a phishing website’s deployment and its subsequent blacklisting, and may increase their return-on-investment (ROI) by prolonging this gap" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://fujiaoji.github.io/posts/reading-phishtime/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-24T19:06:34-05:00" />
+<meta property="article:modified_time" content="2023-02-24T19:06:34-05:00" /><meta property="og:site_name" content="My cool site" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Reading: PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist"/>
+<meta name="twitter:description" content="Question: How they test which web can pass or not pass the blacklist??? How they design the experiment 2. Background Spearphishing: concentrate on a specific group or individuals Large-scale phishing: targets a wide range of victims and allows fishers to profit through volume
+2.1 phishing attacks Typical phishing attack: appearance similar to the legistimate website.
+2.2 anti-phishing blacklists Evasion Tech: Weakness of blacklist: they are reactive. Phishers capitalize on the time gap between a phishing website’s deployment and its subsequent blacklisting, and may increase their return-on-investment (ROI) by prolonging this gap"/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://fujiaoji.github.io/posts/reading-phishtime/" /><link rel="prev" href="http://fujiaoji.github.io/posts/reading-phishfarm/" /><link rel="next" href="http://fujiaoji.github.io/posts/reading-an-analysis-of-phishing-blacklists-gsb-op-pt/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Reading: PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/fujiaoji.github.io\/posts\/reading-phishtime\/"
+        },"genre": "posts","keywords": "ReadPaper","wordcount":  510 ,
+        "url": "http:\/\/fujiaoji.github.io\/posts\/reading-phishtime\/","datePublished": "2023-02-24T19:06:34-05:00","dateModified": "2023-02-24T19:06:34-05:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Fujiao Ji">Fujiao Ji</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Fujiao Ji">Fujiao Ji</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Reading: PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-24">2023-02-24</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;510 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#question">Question:</a></li>
+    <li><a href="#2-background">2. Background</a>
+      <ul>
+        <li><a href="#21-phishing-attacks">2.1 phishing attacks</a></li>
+        <li><a href="#22-anti-phishing-blacklists">2.2 anti-phishing blacklists</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-blacklist-evaluation-metrics">3. Blacklist Evaluation metrics</a>
+      <ul>
+        <li><a href="#31-blacklist-performance">3.1 Blacklist Performance</a></li>
+        <li><a href="#32-selection-of-blacklists">3.2 Selection of Blacklists</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-phishtime-overview">4. PhishTime Overview</a></li>
+    <li><a href="#5-phishitime-analysis">5. PhishiTime analysis</a>
+      <ul>
+        <li><a href="#51-evasion-tech">5.1 Evasion Tech</a></li>
+      </ul>
+    </li>
+    <li><a href="#6-experiment-design">6. Experiment design</a>
+      <ul>
+        <li><a href="#61-measuring-blacklist-speed--coverage-31">6.1 Measuring Blacklist Speed &amp; Coverage (3.1)</a></li>
+      </ul>
+    </li>
+    <li><a href="#7-implementation-of-experiment">7. Implementation of experiment</a>
+      <ul>
+        <li><a href="#71-overview">7.1 Overview</a></li>
+        <li><a href="#72-reporting-to-blacklists">7.2 Reporting to Blacklists</a></li>
+        <li><a href="#73-blacklist-monitoring">7.3 Blacklist Monitoring</a></li>
+        <li><a href="#74-experimental-controls">7.4 Experimental Controls</a></li>
+      </ul>
+    </li>
+    <li><a href="#reference">Reference</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="question">Question:</h2>
+<ul>
+<li>How they test which web can pass or not pass the blacklist???</li>
+<li>How they design the experiment</li>
+</ul>
+<h2 id="2-background">2. Background</h2>
+<p>Spearphishing: concentrate on a specific group or individuals
+Large-scale phishing: targets a wide range of victims and allows fishers to profit through volume</p>
+<h3 id="21-phishing-attacks">2.1 phishing attacks</h3>
+<p>Typical phishing attack: appearance similar to the legistimate website.</p>
+<h3 id="22-anti-phishing-blacklists">2.2 anti-phishing blacklists</h3>
+<p>Evasion Tech:
+Weakness of blacklist: they are reactive. Phishers capitalize on the time gap between a phishing website’s deployment and its subsequent blacklisting, and may increase their return-on-investment (ROI) by prolonging this gap</p>
+<p>Cloaking is an evasion tech to hide phishing content from blacklist infrastructure while keeping it visible to human victims.
+Redirection links
+Compromised infrastrucure</p>
+<p>How the company do: based on the customers and the internal systems. Then forward the Url to the blacklists.</p>
+<h2 id="3-blacklist-evaluation-metrics">3. Blacklist Evaluation metrics</h2>
+<h3 id="31-blacklist-performance">3.1 Blacklist Performance</h3>
+<p>2 metrics:</p>
+<ul>
+<li>Discovery refers to a blacklist’s ability to identify new URLs in the wild that are suspected of hosting phishing content.</li>
+<li>Detection refers to a blacklist’s ability to correctly classify the discovered URLs, such that URLs with phishing content are added to the blacklist.
+<ul>
+<li>For any set of phishing URLs discovered by a blacklist, coverage is the proportion of these URLs that are blacklisted at any point while they host phishing content.</li>
+<li>Speed is the time delay between discovery and blacklisting, which assesses how quickly blacklists respond.</li>
+</ul>
+</li>
+</ul>
+<h3 id="32-selection-of-blacklists">3.2 Selection of Blacklists</h3>
+<ul>
+<li><!-- raw HTML omitted --> Google Safe Browsing (GSB) <!-- raw HTML omitted --><!-- raw HTML omitted --> protects Chrome, Safari, Firefox, and Chromium. <a href="https://transparencyreport.google.com/safe-browsing/overview?hl=en" target="_blank" rel="noopener noreffer ">Link</a></li>
+<li>Microsoft SmartScreen protects Internet Explorer (IE) and Edge</li>
+<li>Opera’s fraud and malware protection</li>
+</ul>
+<h2 id="4-phishtime-overview">4. PhishTime Overview</h2>
+<p>An effective way to empirically evaluate the performance of anti-phishing blacklists is to deploy a large batch of specially-configured test phishing websites, report the websites directly to blacklists, and then monitor each website to see if and when it is blacklisted.</p>
+<p>The workflow:</p>
+<ul>
+<li>Monitor Blacklisting of Live PhishingWebsites</li>
+<li>Report URLs and Prune if Blacklisted.</li>
+<li>Analyze (Evasive) PhishingWebsites: 手动分析为什么他们可以逃过blacklist detection: tech they use, appearance, user interface
+<ul>
+<li>具体来说，visiting each URL, test different variations of request parameters until successfully retrive the content. Thus infer the server-side evasion tech used by phsihing website.</li>
+<li>analyze each web visually, inspect the client-side source code</li>
+</ul>
+</li>
+<li>Design experiment (evasion inspirred)
+<ul>
+<li>After analyzing a representative sample of URLs, we abstract key trends anad design experiment to replicate them</li>
+</ul>
+</li>
+<li>Deploy Phishtime experiment</li>
+<li>Ecosystem Recommendation</li>
+</ul>
+<h2 id="5-phishitime-analysis">5. PhishiTime analysis</h2>
+<h3 id="51-evasion-tech">5.1 Evasion Tech</h3>
+<p>183/4393 URLs notpromptly blacklisted, 96/183 are never blacklisted, XXX</p>
+<h2 id="6-experiment-design">6. Experiment design</h2>
+<p><!-- raw HTML omitted --> 不太明白是怎么设计实验的， 特别那个表格 <!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h3 id="61-measuring-blacklist-speed--coverage-31">6.1 Measuring Blacklist Speed &amp; Coverage (3.1)</h3>
+<ul>
+<li>Baseline: 1 batch phishing web without evasion tech</li>
+<li>Basic evasion</li>
+<li>typical evasion redirection: <!-- raw HTML omitted --> bit.ly <!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+<li>Domain reuse:</li>
+<li>Emerging evasion:</li>
+</ul>
+<h2 id="7-implementation-of-experiment">7. Implementation of experiment</h2>
+<p>Adapt PhishFarm [2]</p>
+<h3 id="71-overview">7.1 Overview</h3>
+<h3 id="72-reporting-to-blacklists">7.2 Reporting to Blacklists</h3>
+<p><!-- raw HTML omitted --> 啥东西, 还有个更新的，不懂 <!-- raw HTML omitted --><!-- raw HTML omitted -->
+Google safe browsing API <a href="https://cloud.google.com/phishing-protection/docs/quickstart-submission-api" target="_blank" rel="noopener noreffer ">Link</a>
+Google Safe Browsing API <a href="https://developers.google.com/safe-browsing/v4/" target="_blank" rel="noopener noreffer ">Link</a>
+eCrime Exchange API <a href="https://docs.apwg.org/reports/apwg_trends_report_q3_2019.pdf" target="_blank" rel="noopener noreffer ">Link</a></p>
+<h3 id="73-blacklist-monitoring">7.3 Blacklist Monitoring</h3>
+<h3 id="74-experimental-controls">7.4 Experimental Controls</h3>
+<h2 id="reference">Reference</h2>
+<ul>
+<li>[1]</li>
+<li>[2] A. Oest, Y. Safaei, A. Doupé, G. Ahn, B. Wardman, and K. Tyers. Phishfarm: A scalable framework for measuring the e ectiveness of evasion techniques against browser phishing blacklists. In Proceedings of the 2019 IEEE Symposium on Security and Privacy, pages 764–781, May 2019.</li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-02-24</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://fujiaoji.github.io/posts/reading-phishtime/" data-title="Reading: PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist" data-hashtags="ReadPaper"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://fujiaoji.github.io/posts/reading-phishtime/" data-hashtag="ReadPaper"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://fujiaoji.github.io/posts/reading-phishtime/" data-title="Reading: PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://fujiaoji.github.io/posts/reading-phishtime/" data-title="Reading: PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://fujiaoji.github.io/posts/reading-phishtime/" data-title="Reading: PhishTime: Continuous Longitudinal Measurement of the Effectiveness of Anti-phishing Blacklist"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/readpaper/">ReadPaper</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/reading-phishfarm/" class="prev" rel="prev" title="Reading: PhishFarm: A Scalable Framework for Measuring the Effectiveness of Evasion Techniques Against Browser Phishing Blacklists"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Reading: PhishFarm: A Scalable Framework for Measuring the Effectiveness of Evasion Techniques Against Browser Phishing Blacklists</a>
+            <a href="/posts/reading-an-analysis-of-phishing-blacklists-gsb-op-pt/" class="next" rel="next" title="Reading: an Analysis of Phishing Blacklists GSB OP PT">Reading: an Analysis of Phishing Blacklists GSB OP PT<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.108.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
